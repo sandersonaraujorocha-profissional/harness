@@ -1,0 +1,5 @@
+classDef tela fill:#e8f0fe,stroke:#1a56db,color:#111
+classDef modal fill:#fff4e5,stroke:#b45309,color:#111
+classDef botao fill:#e6f4ea,stroke:#15803d,color:#111
+classDef decisao fill:#f3e8ff,stroke:#7e22ce,color:#111
+classDef ponto fill:#eee,stroke:#555,color:#111
