@@ -24,7 +24,7 @@ flowchart TD
 - Erros: <regra>
 
 ## Modelo de dados
-Ver `banco-de-dados.md`.
+Ver `database/`.
 
 ## Testes
 - <estratégia>

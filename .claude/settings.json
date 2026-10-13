@@ -1,0 +1,20 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|clear|compact",
+        "hooks": [
+          {
+            "type": "command",
+            "shell": "bash",
+            "command": "echo 'Follow these communication-simplified rules for every reply and every text written to a file in this session. Do not invoke the skill again.'; cat \"$CLAUDE_PROJECT_DIR/.claude/skills/communication-simplified/SKILL.md\"",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  },
+  "skillOverrides": {
+    "communication-simplified": "user-invocable-only"
+  }
+}

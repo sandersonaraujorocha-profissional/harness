@@ -1,0 +1,5 @@
+classDef screen fill:#e8f0fe,stroke:#1a56db,color:#111
+classDef subscreen fill:#fff4e5,stroke:#b45309,color:#111
+classDef component fill:#e6f4ea,stroke:#15803d,color:#111
+classDef decision fill:#f3e8ff,stroke:#7e22ce,color:#111
+classDef point fill:#eee,stroke:#555,color:#111
