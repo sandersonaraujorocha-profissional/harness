@@ -1,5 +1,7 @@
 repos/
 docs-raw/
+docs-obsolete/
+docs/
 
 # Python
 __pycache__/
