@@ -2,6 +2,7 @@ repos/
 docs-raw/
 docs-obsolete/
 docs/
+trash/
 
 # Python
 __pycache__/

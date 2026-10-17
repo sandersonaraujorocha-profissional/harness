@@ -1,6 +1,6 @@
 ---
 name: front-end-documentation
-description: Creates and maintains the front-end documentation at repos/<project>/docs/interface/ (one file per screen, global segment, local segment, sub-screen and component, with ASCII layouts in percent, states and instructions; plus Mermaid screen flow, storage and business errors) and the visual identity manual in HTML/CSS/JS, with on-demand export to plain JS, React or Angular. Use when the user asks to document, add, change or remove screens, segments, sub-screens, modals, components, layouts, states, instructions, screen flows, journeys, navigation maps, global storage or interface error messages, or asks for visual identity, design system, tokens, brand guide or component export.
+description: Creates and maintains the front-end documentation at docs/<project>/interface/ (one file per screen, global segment, local segment, sub-screen and component, with ASCII layouts in percent, states and instructions; plus Mermaid screen flow, storage and business errors) and the visual identity manual in HTML/CSS/JS, with on-demand export to plain JS, React or Angular. Use when the user asks to document, add, change or remove screens, segments, sub-screens, modals, components, layouts, states, instructions, screen flows, journeys, navigation maps, global storage or interface error messages, or asks for visual identity, design system, tokens, brand guide or component export.
 ---
 
 # Front-end documentation
@@ -50,7 +50,7 @@ Global segments and sub-screens belong to no screen: never its child, never in i
 ## Files
 
 ```
-repos/<project>/docs/interface/
+docs/<project>/interface/
   README.md            # language, themes, shell, general rules
   navigation.md        # screen flow diagram
   storage.md           # global data
@@ -60,8 +60,8 @@ repos/<project>/docs/interface/
   local-segments/<screen>-<segment>.md
   sub-screens/<sub-screen>.md
   components/<component>.md
-repos/<project>/identidade/   # visual identity manual
-repos/<project>/export/       # component packages, on demand
+docs/<project>/identidade/   # visual identity manual
+docs/<project>/export/       # component packages, on demand
 ```
 
 - One file per element, named by its id: kebab-case, no accents.

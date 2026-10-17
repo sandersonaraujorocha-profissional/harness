@@ -1,6 +1,6 @@
 ---
 name: architecture-documentation
-description: Creates and maintains repos/<project>/docs/architecture.md (resources and services - infra, databases, queues, third-party APIs, auth, storage, observability - with Mermaid diagrams) and repos/<project>/docs/code-design.md (structure, layers, modules, patterns, conventions, errors, tests). Use when the user asks for architecture, infrastructure, resources, services or system overview, or for code design, code structure, patterns or conventions.
+description: Creates and maintains docs/<project>/architecture.md (resources and services - infra, databases, queues, third-party APIs, auth, storage, observability - with Mermaid diagrams) and docs/<project>/code-design.md (structure, layers, modules, patterns, conventions, errors, tests). Use when the user asks for architecture, infrastructure, resources, services or system overview, or for code design, code structure, patterns or conventions.
 ---
 
 # Architecture documentation
@@ -11,7 +11,7 @@ Planned split: `architecture-resource` (Architecture document) and `architecture
 
 ## Architecture document
 
-File: `repos/<project>/docs/architecture.md`. Copy `templates/architecture.md` and fill the placeholders.
+File: `docs/<project>/architecture.md`. Copy `templates/architecture.md` and fill the placeholders.
 
 | Section | Content |
 |---|---|
@@ -30,14 +30,14 @@ Resources table: `| Resource/Service | Type | Purpose | Status | Notes |` (e.g. 
 
 Workflow:
 
-1. Read `repos/<project>/docs/` and the code/DB docs.
+1. Read `docs/<project>/` and the code/DB docs.
 2. Ask only what blocks (stack, hosting, integrations).
 3. Write or update `architecture.md`, consistent with `code-design.md`.
 4. Validate the Mermaid syntax.
 
 ## Code design
 
-File: `repos/<project>/docs/code-design.md`. Copy `templates/code-design.md` and fill the placeholders.
+File: `docs/<project>/code-design.md`. Copy `templates/code-design.md` and fill the placeholders.
 
 | Section | Content |
 |---|---|
@@ -60,7 +60,7 @@ Rules:
 
 Workflow:
 
-1. Read the project's code and `repos/<project>/docs/`.
+1. Read the project's code and `docs/<project>/`.
 2. Ask only what blocks (language, framework, style preferences).
 3. Write or update `code-design.md`, consistent with `architecture.md`.
 4. Validate the Mermaid syntax.

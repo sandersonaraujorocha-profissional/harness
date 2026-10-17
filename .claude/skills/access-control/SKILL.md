@@ -1,13 +1,13 @@
 ---
 name: access-control
-description: Creates and maintains one file per actor (person, external system, service, bot) at repos/<project>/docs/usuarios/<actor>.md, with its access (channel, authentication, permission) and features. Use when the user asks to document, list, add, change or remove users, actors, personas or their access to the system.
+description: Creates and maintains one file per actor (person, external system, service, bot) at docs/<project>/usuarios/<actor>.md, with its access (channel, authentication, permission) and features. Use when the user asks to document, list, add, change or remove users, actors, personas or their access to the system.
 ---
 
 # Access control
 
 Work inside the current project. Rewrite affected files to the current state; never append.
 
-One file per actor: `repos/<project>/docs/usuarios/<actor>.md` (kebab-case, no accents, singular: `usuario.md`, `telegram.md`). An actor is any entity that interacts with the system: person (role), external system or channel, service/resource, scheduled process.
+One file per actor: `docs/<project>/usuarios/<actor>.md` (kebab-case, no accents, singular: `usuario.md`, `telegram.md`). An actor is any entity that interacts with the system: person (role), external system or channel, service/resource, scheduled process.
 
 ## File
 

@@ -2,7 +2,7 @@
 
 | Coluna | Tipo | Constraints | Descrição |
 |---|---|---|---|
-| id | INTEGER | PK, AUTO_INCREMENT | Identificador único |
+| id | int | PK, AUTO_INCREMENT | Identificador único |
 
 ## Índices
 
